@@ -1,0 +1,8 @@
+services:
+  home-portal:
+    build: .
+    image: ywddzx-home-portal:latest
+    container_name: ywddzx-home-portal
+    ports:
+      - "5170:5170"
+    restart: unless-stopped
