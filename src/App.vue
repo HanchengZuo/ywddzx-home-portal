@@ -1,7 +1,7 @@
 <script setup>
 const stats = [
-  { value: '4', label: '已上线平台', unit: '个' },
-  { value: '4', label: '覆盖业务场景', unit: '类' },
+  { value: '5', label: '已上线平台', unit: '个' },
+  { value: '5', label: '覆盖业务场景', unit: '类' },
   { value: '1', label: '统一入口', unit: '个' },
 ]
 
@@ -34,6 +34,13 @@ const platforms = [
     description: '面向视频上传、抽帧识别、车牌统计和车辆类型分析的智能识别系统。',
     status: '已上线',
   },
+  {
+    name: '油客智荐',
+    url: 'https://youke.ywddzx.com/',
+    scene: '会员营销',
+    description: '会员下次购买预测系统，基于会员消费序列学习，预测客户下次购买行为，支撑油站会员智能营销演示。',
+    status: '已上线',
+  },
 ]
 </script>
 
@@ -44,7 +51,7 @@ const platforms = [
         <p class="eyebrow">home.ywddzx.com</p>
         <h1 id="portal-title">业务督导中心数智化平台门户</h1>
         <p class="hero-subtitle">
-          汇聚巡检管理、培训签署、民主测评、智能识别等应用，打造统一、高效、可持续扩展的数智化工作入口。
+          汇聚巡检管理、培训签署、民主测评、智能识别、会员营销等应用，打造统一、高效、可持续扩展的数智化工作入口。
         </p>
 
         <div class="stats-panel" aria-label="平台统计">
